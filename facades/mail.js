@@ -14,7 +14,7 @@ const Mail = {
     send: async function (body,subject) {
         try {
             await mailer.sendMail({
-                from: "rmissimawu@gmail.com",
+                from: "rol95lumen@gmail.com",
                 to: this.email,
                 text: body,
                 subject: subject
