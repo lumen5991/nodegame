@@ -8,8 +8,8 @@ const Mail = {
     },
 
     generateRandomCode: function () {
-        return crypto.randomBytes(3).toString('hex').toUpperCase(); // Change to 3 bytes for a 6-character code
-    },
+        return crypto.randomBytes(3).toString('hex').toUpperCase(); 
+        },
 
     send: async function (body,subject) {
         try {

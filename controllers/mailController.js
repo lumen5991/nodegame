@@ -2,7 +2,7 @@ const Mail = require('../facades/mail');
 
 async function main(req, res) {
     try {
-        await Mail.to("rmissimawu@gmail.com").send('Merci pour votre inscription');
+        await Mail.to("rol95lumen@gmail.com").send('Merci pour votre inscription');
         res.status(200).json({ message: 'Email sent successfully' });
     } catch (error) {
         console.error('Error in sending email:', error);
